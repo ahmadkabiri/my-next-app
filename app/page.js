@@ -30,15 +30,15 @@ const Home = () => {
             signal: ac.signal,
           });
           // setOTP(otpCredential.code);
-          logOtpActions(1,1)
+          logOtpActions(1, 1);
           let arrayOfCode = otpCredential.code
             .split("")
             .map((number) => `${number}`);
-            logOtpActions(2,2)
+          logOtpActions(2, 2);
           logOtpActions("arrayOfCode", arrayOfCode);
-          logOtpActions(3,3)
+          logOtpActions(3, 3);
           setOTP(arrayOfCode);
-          logOtpActions(4,4)
+          logOtpActions(4, 4);
           // await handleVerifyOtp({
           //   username: "09028801466",
           //   otp: arrayOfCode,
@@ -109,7 +109,7 @@ const Home = () => {
 
   return (
     <div className="App">
-      <h1>Hello Next.js12</h1>
+      <h1>Hello Next.js13</h1>
 
       <Box
         sx={{
